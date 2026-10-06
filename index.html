@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Milla House — Family OS</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">🏠 Milla House</div>
+  <div class="today-meta">
+    <span id="today-date"></span>
+    <span id="ab-badge" class="ab-badge"></span>
+  </div>
+</header>
+
+<main>
+  <section class="card" id="today-card">
+    <h2>Today's Plates</h2>
+    <div id="today-meals" class="meals"></div>
+    <p class="fine">Same weekly rotation · <span id="rotation-note"></span></p>
+  </section>
+
+  <section class="card">
+    <h2>This Week's Dinners</h2>
+    <div id="week-dinners" class="dinner-grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>School</h2>
+    <div id="school-box"></div>
+    <p class="fine">Late start Wednesdays (Jr High / High School) · Early dismissal Fridays (Elementary)</p>
+  </section>
+
+  <section class="card">
+    <h2>Grocery List</h2>
+    <div class="add-row">
+      <input id="grocery-input" type="text" placeholder="Add an item…" autocomplete="off">
+      <button id="grocery-add">Add</button>
+    </div>
+    <div id="grocery-list"></div>
+    <button id="grocery-clear" class="ghost">Clear checked</button>
+  </section>
+
+  <section class="card">
+    <h2>Family Tasks</h2>
+    <div class="add-row">
+      <input id="task-input" type="text" placeholder="Add a task…" autocomplete="off">
+      <button id="task-add">Add</button>
+    </div>
+    <div id="task-list"></div>
+    <button id="task-clear" class="ghost">Clear done</button>
+  </section>
+</main>
+
+<footer>
+  <p>Milla House Family OS · v1 · Made with care for Jon, Amy &amp; the crew</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
