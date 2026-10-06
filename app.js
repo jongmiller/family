@@ -52,6 +52,7 @@ const GROCERY_SECTIONS = {
 
 // ---------- School calendar (Davis School District) ----------
 const NO_SCHOOL = {
+  "2026-09-07": "Labor Day",
   "2026-10-14": "Professional Day", "2026-10-15": "Fall Break", "2026-10-16": "Fall Break",
   "2026-11-25": "Compensation Day", "2026-11-26": "Thanksgiving Break", "2026-11-27": "Thanksgiving Break",
   "2026-12-21": "Winter Break", "2026-12-22": "Winter Break", "2026-12-23": "Winter Break",
